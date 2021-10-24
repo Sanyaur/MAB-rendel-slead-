@@ -23,8 +23,8 @@ def login_field():
     login_button = driver.find_element_by_css_selector('button.lg-btn')
         
     # interacting w/ elements
-    username.send_keys('6290011')
-    password.send_keys('ezEgyJelszó!01' + Keys.ENTER)
+    username.send_keys('xxxxx')
+    password.send_keys('xxxxxx' + Keys.ENTER)
     login_button.click()
 
 try:
